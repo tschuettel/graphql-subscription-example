@@ -7,10 +7,10 @@ To test the subscription start this Spring Boot application and open http://loca
 The subscription can be called like this:
 ```
 subscription {
-  testSubscription(arg: "hallo")
+  testSubscription(arg: "hello")
 }
 ``` 
 
-In results window will show "test"+current timestamp which is updated every 2 seconds:
+In results window will show "hello"+current timestamp which is updated every 2 seconds:
 
 ![GraphiQL window](graphiql-call-subscription.png)
